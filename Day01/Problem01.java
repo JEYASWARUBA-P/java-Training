@@ -5,5 +5,4 @@ public class Problem01 {
     {
         System.out.println("hello");
     }
-    
 }
