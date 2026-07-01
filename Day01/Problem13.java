@@ -1,9 +1,18 @@
 package Day01;
 
-public class Problem13 {
+//swaping of two numbers
 
+public class Problem13 {
     public static void main(String[] args) {
-        char grade = 'A';
-        System.out.println(grade);
+
+        int a = 10;
+        int b = 20;
+
+        int temp = a;
+        a = b;
+        b = temp;
+
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
     }
 }
