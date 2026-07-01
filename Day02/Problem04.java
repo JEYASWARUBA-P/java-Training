@@ -1,8 +1,18 @@
 package Day02;
 
+//Divisor Game
+
 public class Problem04 {
+
+    public static boolean divisorGame(int n) {
+
+        return n % 2 == 0;
+    }
+
     public static void main(String[] args) {
-        int a = 20, b = 5;
-        System.out.println("Quotient = " + (a / b));
+
+        int n = 6;
+
+        System.out.println(divisorGame(n));
     }
 }

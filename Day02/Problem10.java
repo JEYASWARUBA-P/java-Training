@@ -1,8 +1,24 @@
 package Day02;
 
+//Running Sum of 1D Array
+
+import java.util.Arrays;
+
 public class Problem10 {
+
+    public static int[] runningSum(int[] nums) {
+
+        for (int i = 1; i < nums.length; i++) {
+            nums[i] = nums[i] + nums[i - 1];
+        }
+
+        return nums;
+    }
+
     public static void main(String[] args) {
-        int a = 10, b = 20;
-        System.out.println(a < b && b > 15);
+
+        int[] nums = {1, 2, 3, 4};
+
+        System.out.println(Arrays.toString(runningSum(nums)));
     }
 }
