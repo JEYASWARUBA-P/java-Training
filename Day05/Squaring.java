@@ -1,9 +1,9 @@
 package Day05;
 
-public class Problem11 {
+public class Squaring {
     public static void main(String[] args) {
         for (int i = 1; i <= 5; i++) {
-            System.out.println("Count: " + i);
+            System.out.println(i * i);
         }
     }
 }

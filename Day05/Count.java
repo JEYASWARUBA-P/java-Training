@@ -1,9 +1,9 @@
 package Day05;
 
-public class Problem13 {
+public class Count {
     public static void main(String[] args) {
         for (int i = 1; i <= 5; i++) {
-            System.out.println(i * i * i);
+            System.out.println("Count: " + i);
         }
     }
 }

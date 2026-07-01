@@ -1,6 +1,6 @@
 package Day05;
 
-public class Problem15 {
+public class DigitCount {
     public static void main(String[] args) {
         int num = 5544875;
         int count = 0;
