@@ -2,13 +2,13 @@ package Day04;
 
 import java.util.Scanner;
 
-public class Problem06 {
+public class InputAge {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        sc.close();
 
-        float num = sc.nextFloat();
+        int age = sc.nextInt();
 
-        System.out.println(num);
+        System.out.println("Age = " + age);
     }
 }
-

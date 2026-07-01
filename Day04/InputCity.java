@@ -2,12 +2,13 @@ package Day04;
 
 import java.util.Scanner;
 
-public class Problem10 {
+public class InputCity {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        sc.close();
 
-        int n = sc.nextInt();
+        String city = sc.nextLine();
 
-        System.out.println("Cube = " + (n * n * n));
+        System.out.println(city);
     }
 }

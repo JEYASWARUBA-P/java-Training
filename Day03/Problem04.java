@@ -7,6 +7,7 @@ public class Problem04 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
+        sc.close();
 
         System.out.print("Enter Celsius: ");
         double celsius = sc.nextDouble();

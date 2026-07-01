@@ -2,8 +2,6 @@ package Day01;
 
 //second largest number in an array
 
-import java.util.Scanner;
-
 public class Problem14{
     public static void main(String[] args) {
 
