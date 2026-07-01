@@ -1,6 +1,6 @@
 package Day06;
 import java.util.Scanner;
-public class Problem10 {
+public class SumOfDigit {
     static int SumOfDigit(int a){
         int count=0;
         if(a>0){
@@ -16,6 +16,7 @@ public class Problem10 {
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        sc.close();
         System.out.print("Enter a number :");
         int a = sc.nextInt();
          

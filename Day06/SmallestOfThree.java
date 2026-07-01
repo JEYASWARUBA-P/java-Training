@@ -2,7 +2,7 @@ package Day06;
 
 import java.util.Scanner;
 
-public class Problem07 {
+public class SmallestOfThree {
 
     static int smallest(int a,int b, int c){
         if(a<b && a<c)

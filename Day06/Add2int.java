@@ -1,6 +1,6 @@
 package Day06;
 
-public class Problem02 {
+public class Add2int {
     static int add(int a,int b){
         int sum = a + b;
         return sum;
