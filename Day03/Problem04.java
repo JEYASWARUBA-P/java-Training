@@ -1,9 +1,18 @@
 package Day03;
 
+import java.util.Scanner;
+
 public class Problem04 {
+
     public static void main(String[] args) {
-        double a = 15.75;
-        int b = (int) a;
-        System.out.println(b);
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter Celsius: ");
+        double celsius = sc.nextDouble();
+
+        double fahrenheit = (celsius * 9 / 5) + 32;
+
+        System.out.println("Fahrenheit = " + fahrenheit);
     }
 }

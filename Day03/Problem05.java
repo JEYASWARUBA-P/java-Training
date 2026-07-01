@@ -1,9 +1,22 @@
 package Day03;
 
+import java.util.Scanner;
+
 public class Problem05 {
+
     public static void main(String[] args) {
-        long a = 5000;
-        int b = (int) a;
-        System.out.println(b);
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter First Number: ");
+        int a = sc.nextInt();
+
+        System.out.print("Enter Second Number: ");
+        int b = sc.nextInt();
+
+        System.out.println("Addition = " + (a + b));
+        System.out.println("Subtraction = " + (a - b));
+        System.out.println("Multiplication = " + (a * b));
+        System.out.println("Division = " + (a / b));
     }
 }

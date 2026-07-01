@@ -1,9 +1,16 @@
 package Day03;
 
+import java.util.Scanner;
+
 public class Problem01 {
+
     public static void main(String[] args) {
-        int a = 10;
-        double b = a;
-        System.out.println(b);
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a binary number: ");
+        String binary = sc.nextLine();
+
+        System.out.println("Binary Number = " + binary);
     }
 }
