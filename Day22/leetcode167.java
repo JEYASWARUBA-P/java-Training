@@ -1,7 +1,7 @@
 package Day22;
 import java.util.Arrays;
 
-public class Leetcode167 {
+public class leetcode167 {
 
     public int[] twoSum(int[] numbers, int target) {
         int i = 0;
@@ -24,7 +24,7 @@ public class Leetcode167 {
 
     public static void main(String[] args) {
 
-        Leetcode167 obj = new Leetcode167();
+        leetcode167 obj = new leetcode167();
 
         int[] numbers = {2, 7, 11, 15};
         int target = 9;
