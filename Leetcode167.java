@@ -23,7 +23,7 @@ public class Leetcode167 {
 
     public static void main(String[] args) {
 
-        Solution obj = new Solution();
+        Leetcode167 obj = new Leetcode167();
 
         int[] numbers = {2, 7, 11, 15};
         int target = 9;
