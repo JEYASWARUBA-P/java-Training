@@ -26,7 +26,7 @@ public class leetcode26 {
 
         leetcode26 obj = new leetcode26();
 
-        int[] nums = {1, 1, 2};
+        int[] nums = {1, 1, 3};
 
         int k = obj.removeDuplicates(nums);
 
