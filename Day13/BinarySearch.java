@@ -6,6 +6,7 @@ public class BinarySearch {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
+        sc.close();
 
         int a[] = {10,20,30,40,50};
 
@@ -31,6 +32,7 @@ public class BinarySearch {
         System.out.println("Not Found");
         
        
-            sc.close();}
+        
+    }
     
 }

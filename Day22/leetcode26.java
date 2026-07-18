@@ -1,7 +1,5 @@
 package Day22;
 
-import java.util.Arrays;
-
 public class leetcode26 {
 
     public int removeDuplicates(int[] nums) {
