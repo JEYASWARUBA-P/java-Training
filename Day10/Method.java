@@ -1,12 +1,5 @@
 package Day10;
 
-class Animal {
-
-    void sound() {
-        System.out.println("Animal makes sound");
-    }
-}
-
 public class Method {
 
     public static void main(String[] args) {
@@ -14,5 +7,11 @@ public class Method {
         Animal a = new Animal();
 
         a.sound();
+    }
+}
+class Animal {
+
+    void sound() {
+        System.out.println("Animal makes sound");
     }
 }
