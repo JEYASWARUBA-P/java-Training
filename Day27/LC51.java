@@ -72,6 +72,7 @@ public class LC51 {
     }
 
     public static void main(String[] args) {
+        
 
         Solution obj = new Solution();
 
